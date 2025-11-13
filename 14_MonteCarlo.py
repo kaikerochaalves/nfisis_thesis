@@ -371,8 +371,8 @@ R_NTSK_ = f'{Model_Name} & {st.mean(l_NRMSE):.2f} $\pm$ {st.stdev(l_NRMSE):.2f} 
 #-----------------------------------------------------------------------------
 
 
-GEN_NMR_
-GEN_NTSK_RLS_
-GEN_NTSK_wRLS_
-R_NMR_
-R_NTSK_
+print(GEN_NMR_)
+print(GEN_NTSK_RLS_)
+print(GEN_NTSK_wRLS_)
+print(R_NMR_)
+print(R_NTSK_)
