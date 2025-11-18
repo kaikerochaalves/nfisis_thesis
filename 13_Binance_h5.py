@@ -46,7 +46,7 @@ from lssvr import LSSVR
 from sklearn.ensemble import GradientBoostingRegressor
 from lightgbm import LGBMRegressor
 from xgboost import XGBRegressor
-from evolvingfuzzysystems import eTS, Simpl_eTS, exTS, ePL, eMG, ePL_plus, ePL_KRLS_DISCO
+from evolvingfuzzysystems.eFS import eTS, Simpl_eTS, exTS, ePL, eMG, ePL_plus, ePL_KRLS_DISCO
 from nfisis.fuzzy import NTSK, NewMamdaniRegressor
 from nfisis.genetic import GEN_NTSK, GEN_NMR
 from nfisis.ensemble import R_NTSK, R_NMR
